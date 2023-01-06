@@ -1,0 +1,60 @@
+body {
+  background: linear-gradient(to right,pink,skyblue);
+}
+
+header {
+  font-family: 'Sevillana', cursive;
+  font-size: 23px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#cal {
+  border: 2px solid black;
+  width: 445px;
+  height: 520px;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.box-1 {
+  border: 2px solid black;
+  width: 350px;
+  height: 130px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 15px;
+  font-size: 40px;
+  padding: 20px
+}
+
+.box-2 {
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-2 div {
+  cursor: pointer;
+  width: 65px;
+  height: 65px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 0 auto;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 12px
+}
+
+.box-2 div:hover {
+  background: lightgrey
+}
+
+
+
