@@ -15,4 +15,5 @@ buttons.forEach(e => {
   })
 });
 
+console.log(eval("10 + 20"))
 
