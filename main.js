@@ -6,6 +6,9 @@ buttons.forEach(e => {
     if(e.innerHTML == "C") {
       screen.innerHTML = ""
     }
+    else if(e.innerHTML == "√") {
+      screen.innerHTML = Math.sqrt(screen.innerHTML);
+    }
     else if(e.innerHTML == "="){
       screen.innerHTML = eval(screen.innerHTML)
     }
@@ -14,4 +17,6 @@ buttons.forEach(e => {
     }
   })
 });
+
+
 
